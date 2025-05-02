@@ -10,31 +10,13 @@
       "path": "./apps/blog"
     },
     {
-      "path": "./blog-e2e"
+      "path": "./apps/file-vault"
     },
     {
-      "path": "./blog"
+      "path": "./apps/api"
     },
     {
-      "path": "./apps/blog-e2e"
-    },
-    {
-      "path": "./apps/notification-e2e"
-    },
-    {
-      "path": "./apps/notification"
-    },
-    {
-      "path": "./apps/comment-e2e"
-    },
-    {
-      "path": "./apps/comment"
-    },
-    {
-      "path": "./apps/fileVault-e2e"
-    },
-    {
-      "path": "./apps/fileVault"
+      "path": "./apps/notify"
     }
   ]
 }

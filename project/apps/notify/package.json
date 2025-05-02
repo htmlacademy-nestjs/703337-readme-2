@@ -1,5 +1,5 @@
 {
-  "name": "@project/notification",
+  "name": "@project/notify",
   "version": "0.0.1",
   "private": true,
   "nx": {
@@ -27,15 +27,15 @@
           "build"
         ],
         "options": {
-          "buildTarget": "@project/notification:build",
+          "buildTarget": "@project/notify:build",
           "runBuildTargetDependencies": false
         },
         "configurations": {
           "development": {
-            "buildTarget": "@project/notification:build:development"
+            "buildTarget": "@project/notify:build:development"
           },
           "production": {
-            "buildTarget": "@project/notification:build:production"
+            "buildTarget": "@project/notify:build:production"
           }
         }
       },

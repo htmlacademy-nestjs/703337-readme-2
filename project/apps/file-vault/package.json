@@ -1,5 +1,5 @@
 {
-  "name": "@project/comment",
+  "name": "@project/file-vault",
   "version": "0.0.1",
   "private": true,
   "nx": {
@@ -27,15 +27,15 @@
           "build"
         ],
         "options": {
-          "buildTarget": "@project/comment:build",
+          "buildTarget": "@project/file-vault:build",
           "runBuildTargetDependencies": false
         },
         "configurations": {
           "development": {
-            "buildTarget": "@project/comment:build:development"
+            "buildTarget": "@project/file-vault:build:development"
           },
           "production": {
-            "buildTarget": "@project/comment:build:production"
+            "buildTarget": "@project/file-vault:build:production"
           }
         }
       },

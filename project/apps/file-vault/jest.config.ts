@@ -10,7 +10,7 @@ const swcJestConfig = JSON.parse(
 swcJestConfig.swcrc = false;
 
 export default {
-  displayName: '@project/comment',
+  displayName: '@project/file-vault',
   preset: '../../jest.preset.js',
   testEnvironment: 'node',
   transform: {

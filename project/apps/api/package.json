@@ -1,5 +1,5 @@
 {
-  "name": "@project/fileVault",
+  "name": "@project/api",
   "version": "0.0.1",
   "private": true,
   "nx": {
@@ -27,15 +27,15 @@
           "build"
         ],
         "options": {
-          "buildTarget": "@project/fileVault:build",
+          "buildTarget": "@project/api:build",
           "runBuildTargetDependencies": false
         },
         "configurations": {
           "development": {
-            "buildTarget": "@project/fileVault:build:development"
+            "buildTarget": "@project/api:build:development"
           },
           "production": {
-            "buildTarget": "@project/fileVault:build:production"
+            "buildTarget": "@project/api:build:production"
           }
         }
       },
