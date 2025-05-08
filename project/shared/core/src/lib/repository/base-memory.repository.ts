@@ -15,7 +15,7 @@ export abstract class BaseMemoryRepository<T extends Entity<EntityIdType>> imple
     }
 
     this.entities.set(entity.id, entity);
-    console.log(this.entities);
+    //console.log(this.entities)
     return entity;
   }
 
